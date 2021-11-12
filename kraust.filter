@@ -1,0 +1,493 @@
+# 0   0   0   255 # Black
+# 175 96  37  255 # Brown
+# 255 0   0   255 # Red
+# 255 255 0   255 # Yellow
+# 200 200 200 255 # White
+# 170 158 130 255 # Currency
+# 74  230 58  255 # Quest Item
+# 30  144 255 255 # Blue
+
+# 6-links
+Show
+    LinkedSockets           >= 6
+    Rarity                  Unique
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Brown Circle
+Show
+    LinkedSockets           >= 6
+    SetTextColor            255 0   0   255 # Red
+    SetBorderColor          255 0   0   255 # Red
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Red Circle
+Show
+    LinkedSockets           >= 5
+
+# Stone of Passage
+Show
+    BaseType                "Stone of Passage"
+    SetTextColor            74  230 58  255 # Quest Item
+    SetBorderColor          74  230 58  255 # Quest Item
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+
+
+# Enchants
+Show
+    AnyEnchantment          True
+    SetBackgroundColor      0 0 0 255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Purple Diamond
+
+# Veiled
+Show
+    HasExplicitMod "Veil"
+    SetBackgroundColor      0 0 0 255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Purple Diamond
+
+
+# Replica
+Show
+    Replica                 True
+    Rarity                  Unique
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Red Circle
+
+# Synthesis
+Show
+    SynthesisedItem         True
+    PlayAlertSound          2
+    MinimapIcon             1 White Diamond
+Show
+    FracturedItem           True
+    PlayAlertSound          2
+    MinimapIcon             1 White Diamond
+
+
+# Influence
+Show
+    HasInfluence            "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
+
+
+# Scourge
+Show
+    Rarity                  Unique
+    Scourged                True
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          255 0   0   255 # Red
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Hide
+    Scourged                True
+    SetBorderColor          255 0   0   255 # Red
+
+# Blight
+Show
+    Class                   Currency
+    BaseType                "Oil"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+
+
+# Delirium
+Show
+    Class                   Currency
+    BaseType                "Delirium Orb"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+
+
+# Delve
+Show
+    Class                   Currency
+    BaseType                "Fossil"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+
+
+# Metamorph
+Show
+    BaseType                "Catalyst"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+
+
+# Essence
+Show
+    Class                   Currency
+    BaseType                "Essence" "Remnant of Corruption"
+    SetTextColor            255 255 0   255 # Yellow
+    SetBorderColor          255 255 0   255 # Yellow
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Yellow Circle
+
+#Expedition
+Show
+    BaseType                "Expedition Logbook"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Brown Circle
+
+# Fragments
+# Splinters
+Show
+    Class                   "Stackable Currency"
+    BaseType                "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      38  0   86  255 # Purple
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    Class                   "Stackable Currency"
+    BaseType                "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Brown Circle
+Show
+    BaseType                "Breachstone"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Brown Circle
+Show
+    Class                   "Stackable Currency"
+    BaseType                "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter" "Timeless Templar Splinter" "Timeless Maraketh Splinter"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      38  0   86  255 # Purple
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    Class                   "Stackable Currency"
+    BaseType                "Splinter"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    Class                   "Map Fragments"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    BaseType                "Sacrifice At Midnight" "Sacrifice At Dawn" "Sacrifice At Noon" "Sacrifice At Dusk"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    BaseType                "Mortal Hope" "Mortal Grief" "Mortal Rage" "Mortal Ignorance"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    BaseType                "Volkuur's Key" "Inya's Key" "Yriel's Key" "Eber's Key"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    BaseType                "Fragment of the Hydra" "Fragment of the Chimera" "Fragment of the Minotaur" "Fragment of the Phoenix"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    BaseType                "Fragment of Purification" "Fragment of Constriction" "Fragment of Eradication" "Fragment of Enslavement"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    BaseType                "Fragment of Knowledge" "Fragment of Shape" "Fragment of emptiness" "Fragment of Terror"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    BaseType                "Ritual Splinter" "Ritual Vessel"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    BaseType                "Divine Vessel"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+
+
+# Scarabs
+Show
+    BaseType                "Scarab"
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+
+
+# Uniques
+Show
+    Rarity                  Unique
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+
+# Heist
+Show
+    Class                   Blueprint
+    Rarity                  Unique
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          175 96  37  255 # Brown
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Brown Circle
+Show
+    Class                   Blueprint
+    SetTextColor            255 255 0   255 # Yellow
+    SetBorderColor          255 255 0   255 # Yellow
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Yellow Square
+Show
+    Class                   Contract
+    SetTextColor            200 200 200 255 # White
+    SetBorderColor          200 200 200 255 # White
+    SetBackgroundColor      0 0 0 255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 White Square
+
+# Unique Maps
+# Red Maps
+Show
+    Class                   Maps
+    Rarity                  Unique
+    MapTier                 >= 11
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          255 0   0   255 # Red
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Red Square
+
+# Yellow Maps
+Show
+    Class                   Maps
+    Rarity                  Unique
+    MapTier                 >= 6
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          255 255 0   255 # Yellow
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Yellow Square
+
+# White Maps
+Show
+    Class                   Maps
+    Rarity                  Unique
+    MapTier                 >= 1
+    SetTextColor            175 96  37  255 # Brown
+    SetBorderColor          200 200 200 255 # White
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 White Square
+
+
+# Other Maps
+# Red Maps
+Show
+    Class                   Maps
+    MapTier                 >= 11
+    SetTextColor            255 0   0   255 # Red
+    SetBorderColor          255 0   0   255 # Red
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Red Square
+
+# Yellow Maps
+Show
+    Class                   Maps
+    MapTier                 >= 6
+    SetTextColor            255 255 0   255 # Yellow
+    SetBorderColor          255 255 0   255 # Yellow
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Yellow Square
+
+# White Maps
+Show
+    Class                   Maps
+    MapTier                 >= 1
+    SetTextColor            200 200 200 255 # White
+    SetBorderColor          200 200 200 255 # White
+    SetBackgroundColor      0 0 0 255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 White Square
+
+#Flasks
+Show
+    BaseType                Flask
+    AreaLevel               <= 67
+Hide
+    BaseType Flask
+
+# Armour
+Show
+    Class                   Helmet Shield Gloves Quiver Armour Boots
+    AreaLevel               <= 67
+Hide
+    HasInfluence            None
+    Class                   Helmet Shield Gloves Quiver Armour Boots
+
+# Weapons
+Show
+    Class                   Dagger Wand "Hand" Bow Stave Sceptre Claw
+    AreaLevel               <= 67
+Hide
+    HasInfluence            None
+    Class                   Dagger Wand "Hand" Bow Stave Sceptre Claw
+
+# Jewellery
+Show
+    Class                   "Ring" "Amulet" "Belt"
+    AreaLevel               <= 67
+Hide
+    HasInfluence            None
+    Class                   "Ring" "Amulet" "Belt"
+
+
+# Jewel
+Show
+    Class                   "Jewel"
+    AnyEnchantment          True
+    SetBackgroundColor      0 0 0 255 # Black
+    SetBorderColor          0   73  0   255 # Dark Green
+    PlayAlertSound          2
+    MinimapIcon             1 Purple Diamond
+Hide
+    Class                   "Abyss Jewel"
+    SetBackgroundColor      0 0 0 255 # Black
+    SetBorderColor          88  0   179 255 # Light Purple
+Show
+    Class                   "Jewel"
+    AreaLevel               <= 67
+Hide
+    Class                   "Jewel"
+
+# Gem
+Show
+    Class                   "Gem"
+    BaseType                "Empower" "Enlighten"
+    SetTextColor            255 0   0   255 # Red
+    SetBorderColor          255 0   0   255 # Red
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Blue Circle
+Show
+    Class                   "Gem"
+    AlternateQuality        True
+    PlayAlertSound          1
+Show
+    Quality                 >= 20
+    Class                   "Gem"
+    PlayAlertSound          2
+Show
+    GemLevel                >= 20
+    Class                   "Gem"
+    PlayAlertSound          2
+Show
+    Class                   "Gem"
+    AreaLevel               <= 67
+Hide
+    Class                   "Gem"
+
+# Divination Cards
+Show
+    Class                   "Divination Card"
+    BaseType                "The Patient" "The Nurse" "The Doctor" "Abandoned Wealth" "The Scout" "The Hoarder" "The Saint's Treasure" "Pride of the First Ones"
+    SetTextColor            255 0   0   255 # Red
+    SetBorderColor          255 0   0   255 # Red
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Blue Diamond
+Show
+    Class                   "Divination Card"
+    SetTextColor            30  144 255 255 # Blue
+    SetBorderColor          30  144 255 255 # Blue
+    SetBackgroundColor      200 200 200 255 # White
+    MinimapIcon             1 Blue Diamond
+
+# Currency
+Show
+    Class                   Currency
+    BaseType                "Mirror of Kalandra" "Exalted Orb" "Sacred Orb" "Divine Orb" "Mythic Orb" "Maven's Orb" "Awakener's Orb" "Mirror Shard" "Regrading Lens"
+    SetTextColor            255 0   0   255 # Red
+    SetBorderColor          255 0   0   255 # Red
+    SetBackgroundColor      200 200 200 255 # White
+    PlayAlertSound          6
+    MinimapIcon             2 Red Circle
+Show
+    Class                   Currency
+    BaseType                "Chaos Orb" "Tainted" "Harbinger's Orb" "Orb of Horizons" "Orb of Regret" "Orb of Unmaking" "Stacked Deck" "Sextant" "Ancient Orb" "Exalted Shard" "Orb of Annulment" "Gemcutter's Prism" "Veiled Chaos Orb" "Regal Orb" "Simulacrum Splinter" "Cartographer's Chisel" "Orb of Alchemy" "Orb of Binding" "Orb of Fusing" "Vaal Orb" "Rogue's Marker" "Orb of Scouring" "Crescent Splinter" "Stragali" "Exotic Coinage" "Scrap Metal" "Burial Medallion"
+    SetTextColor            255 255 0   255 # Yellow
+    SetBorderColor          255 255 0   255 # Yellow
+    SetBackgroundColor      0   0   0   255 # Black
+    PlayAlertSound          2
+    MinimapIcon             1 Yellow Circle
+Show
+    Class                   Currency
+    BaseType                "Chromatic Orb" "Jeweller's Orb" "Orb of Alteration" "Orb of Chance" "Glassblower's Bauble" "Enkindling Orb" "Instilling Orb" "Blessed Orb" "Orb of Transmutation" "Ancient Shard" "Orb of Augmentation"
+    SetTextColor            255 255 255   255 # White
+    SetBorderColor          170 158 130 255 # Currency
+    SetBackgroundColor      0   0   0   255 # Black
+    MinimapIcon             1 White Circle
+Hide
+    Class                   Currency
+    BaseType                "Scroll of Wisdom" "Portal Scroll" "Engineer's Orb" "Engineer's Shard" "Binding Shard" "Regal Shard" "Silver Coin" "Blacksmith's Whetstone" "Armourer's Scrap"
+    SetTextColor            170 158 130 255 # Currency
+    SetBorderColor          170 158 130 255 # Currency
+    SetBackgroundColor      0   0   0   255 # Black
+
